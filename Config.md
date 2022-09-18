@@ -93,3 +93,10 @@ chsh -s $(which zsh)
 ## 4) pipenv
 
 ## 5) alias
+
+## 6 Git
+
+```console
+git config --global core.excludesfile ~/.gitignore
+git config --global core.pager "cat"
+```
