@@ -49,14 +49,44 @@ pyenv install --list
 ```
 
 ```console
-pyenv install 3.10.5
+pyenv install 3.10.7
 ```
 
 ```console
-pyenv global 3.10.5
+pyenv global 3.10.7
+```
+
+Fedora
+
+```
+sudo dnf groupinstall "Development Tools" -y
+sudo dnf install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel findutils tk-devel -y
 ```
 
 ## 3) zsh
+
+```console
+sudo dnf install zsh
+```
+
+```console
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+configs
+
+```console
+ZSH_THEME="gozilla"
+
+plugins=(
+ zsh-autosuggestions
+ zsh-syntax-highlighting
+)
+```
+
+```console
+chsh -s $(which zsh)
+```
 
 ## 3) peotry
 
