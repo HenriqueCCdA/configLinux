@@ -99,4 +99,5 @@ chsh -s $(which zsh)
 ```console
 git config --global core.excludesfile ~/.gitignore
 git config --global core.pager "cat"
+git config --global init.defaultBranch main
 ```
