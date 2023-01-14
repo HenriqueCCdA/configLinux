@@ -1,0 +1,50 @@
+{
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "redhat.telemetry.enabled": false,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "python.terminal.activateEnvironment": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "notebook.lineNumbers": "on",
+    "jupyter.askForKernelRestart": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.associations": {
+        "*.html": "html",
+        "*.fi": "FortranFixedForm"
+    },
+    "material-icon-theme.activeIconPack": "react_redux",
+    "editor.rulers": [],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.mod": true,
+        "**/*.o": true,
+        ".venv": true,
+        ".vscode": true,
+        ".vscodelocal": true,
+        "**/*.egg-info": true
+    },
+    "fortran.linter.compiler": "gfortran",
+    "fortran.fortls.path": "/home/henrique/.pyenv/versions/3.9.16/bin/fortls",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoImportUserSymbols": true,
+    "[makefile]": {
+        "editor.insertSpaces": false
+    }
+}
