@@ -73,15 +73,21 @@ sudo dnf install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+starship
+
+```console
+curl -sS https://starship.rs/install.sh | sh
+```
+
 configs
 
 ```console
-ZSH_THEME="gozilla"
-
 plugins=(
  zsh-autosuggestions
  zsh-syntax-highlighting
 )
+
+eval "$(starship init zsh)"
 ```
 
 ```console
