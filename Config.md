@@ -88,7 +88,15 @@ plugins=(
 chsh -s $(which zsh)
 ```
 
-## 3) peotry
+## 3) poetry
+
+```console
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+```console
+export PATH=$PATH:$HOME/.local/bin
+```
 
 ## 4) pipenv
 
